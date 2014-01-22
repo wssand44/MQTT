@@ -1,0 +1,23 @@
+# Uncomment this line to define a global platform for your project
+# platform :ios, "6.0"
+
+target "MQTTMessenger" do
+
+pod 'HPGrowingTextView', '~> 1.1'
+
+pod 'SVPullToRefresh', '~> 0.4.1'
+
+pod 'AFNetworking', '~> 2.0.3'
+
+end
+
+target "MQTTMessengerTests" do
+
+pod 'HPGrowingTextView', '~> 1.1'
+
+pod 'SVPullToRefresh', '~> 0.4.1'
+
+pod 'AFNetworking', '~> 2.0.3'
+
+end
+

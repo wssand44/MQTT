@@ -1,0 +1,884 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4C2CE8BE8021400BBA3E9C93 /* libPods-MQTTMessenger.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 32C508ED00A742C2B4E64EC9 /* libPods-MQTTMessenger.a */; };
+		5727AB36188781740094A4A6 /* MessageEntryBackground.png in Resources */ = {isa = PBXBuildFile; fileRef = 5727AB2E188781740094A4A6 /* MessageEntryBackground.png */; };
+		5727AB37188781740094A4A6 /* MessageEntryBackground@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5727AB2F188781740094A4A6 /* MessageEntryBackground@2x.png */; };
+		5727AB38188781740094A4A6 /* MessageEntryInputField.png in Resources */ = {isa = PBXBuildFile; fileRef = 5727AB30188781740094A4A6 /* MessageEntryInputField.png */; };
+		5727AB39188781740094A4A6 /* MessageEntryInputField@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5727AB31188781740094A4A6 /* MessageEntryInputField@2x.png */; };
+		5727AB3A188781740094A4A6 /* MessageEntrySendButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 5727AB32188781740094A4A6 /* MessageEntrySendButton.png */; };
+		5727AB3B188781740094A4A6 /* MessageEntrySendButton@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5727AB33188781740094A4A6 /* MessageEntrySendButton@2x.png */; };
+		5727AB3C188781740094A4A6 /* MessageEntrySendButtonPressed.png in Resources */ = {isa = PBXBuildFile; fileRef = 5727AB34188781740094A4A6 /* MessageEntrySendButtonPressed.png */; };
+		5727AB3D188781740094A4A6 /* MessageEntrySendButtonPressed@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5727AB35188781740094A4A6 /* MessageEntrySendButtonPressed@2x.png */; };
+		5727AB401887829A0094A4A6 /* SWConversationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5727AB3F1887829A0094A4A6 /* SWConversationViewController.m */; };
+		5727AB431887AF570094A4A6 /* SWChatBubbleCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 5727AB421887AF570094A4A6 /* SWChatBubbleCell.m */; };
+		5727AB691887BA900094A4A6 /* ReceiverTextNodeBkg@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5727AB451887BA900094A4A6 /* ReceiverTextNodeBkg@2x.png */; };
+		5727AB6A1887BA900094A4A6 /* ReceiverTextNodeBkg_ios7@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5727AB461887BA900094A4A6 /* ReceiverTextNodeBkg_ios7@2x.png */; };
+		5727AB6B1887BA900094A4A6 /* ReceiverTextNodeBkgHL@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5727AB471887BA900094A4A6 /* ReceiverTextNodeBkgHL@2x.png */; };
+		5727AB6C1887BA900094A4A6 /* ReceiverTextNodeBkgHL_ios7@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5727AB481887BA900094A4A6 /* ReceiverTextNodeBkgHL_ios7@2x.png */; };
+		5727AB6D1887BA900094A4A6 /* ReceiverVoiceNodeBack@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5727AB491887BA900094A4A6 /* ReceiverVoiceNodeBack@2x.png */; };
+		5727AB6E1887BA900094A4A6 /* ReceiverVoiceNodeBack_ios7@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5727AB4A1887BA900094A4A6 /* ReceiverVoiceNodeBack_ios7@2x.png */; };
+		5727AB6F1887BA900094A4A6 /* ReceiverVoiceNodeBkg@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5727AB4B1887BA900094A4A6 /* ReceiverVoiceNodeBkg@2x.png */; };
+		5727AB701887BA900094A4A6 /* ReceiverVoiceNodeBkg_ios7@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5727AB4C1887BA900094A4A6 /* ReceiverVoiceNodeBkg_ios7@2x.png */; };
+		5727AB711887BA900094A4A6 /* ReceiverVoiceNodeBkgforward@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5727AB4D1887BA900094A4A6 /* ReceiverVoiceNodeBkgforward@2x.png */; };
+		5727AB721887BA900094A4A6 /* ReceiverVoiceNodeBkgforwardHL@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5727AB4E1887BA900094A4A6 /* ReceiverVoiceNodeBkgforwardHL@2x.png */; };
+		5727AB731887BA900094A4A6 /* ReceiverVoiceNodeBkgHL@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5727AB4F1887BA900094A4A6 /* ReceiverVoiceNodeBkgHL@2x.png */; };
+		5727AB741887BA900094A4A6 /* ReceiverVoiceNodeBkgHL_ios7@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5727AB501887BA900094A4A6 /* ReceiverVoiceNodeBkgHL_ios7@2x.png */; };
+		5727AB751887BA900094A4A6 /* ReceiverVoiceNodeDownloading@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5727AB511887BA900094A4A6 /* ReceiverVoiceNodeDownloading@2x.png */; };
+		5727AB761887BA900094A4A6 /* ReceiverVoiceNodeDownloading_ios7@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5727AB521887BA900094A4A6 /* ReceiverVoiceNodeDownloading_ios7@2x.png */; };
+		5727AB771887BA900094A4A6 /* SenderAppNodeBkg@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5727AB531887BA900094A4A6 /* SenderAppNodeBkg@2x.png */; };
+		5727AB781887BA900094A4A6 /* SenderAppNodeBkg_HL@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5727AB541887BA900094A4A6 /* SenderAppNodeBkg_HL@2x.png */; };
+		5727AB791887BA900094A4A6 /* SenderAppNodeBkg_HL_ios7@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5727AB551887BA900094A4A6 /* SenderAppNodeBkg_HL_ios7@2x.png */; };
+		5727AB7A1887BA900094A4A6 /* SenderAppNodeBkg_ios7@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5727AB561887BA900094A4A6 /* SenderAppNodeBkg_ios7@2x.png */; };
+		5727AB7B1887BA900094A4A6 /* SenderImageNodeBorder@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5727AB571887BA900094A4A6 /* SenderImageNodeBorder@2x.png */; };
+		5727AB7C1887BA900094A4A6 /* SenderImageNodeBorder_ios7@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5727AB581887BA900094A4A6 /* SenderImageNodeBorder_ios7@2x.png */; };
+		5727AB7D1887BA900094A4A6 /* SenderTextNodeBkg@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5727AB591887BA900094A4A6 /* SenderTextNodeBkg@2x.png */; };
+		5727AB7E1887BA900094A4A6 /* SenderTextNodeBkg_ios7@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5727AB5A1887BA900094A4A6 /* SenderTextNodeBkg_ios7@2x.png */; };
+		5727AB7F1887BA900094A4A6 /* SenderTextNodeBkgBack_ios7@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5727AB5B1887BA900094A4A6 /* SenderTextNodeBkgBack_ios7@2x.png */; };
+		5727AB801887BA900094A4A6 /* SenderTextNodeBkgDownloading_ios7@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5727AB5C1887BA900094A4A6 /* SenderTextNodeBkgDownloading_ios7@2x.png */; };
+		5727AB811887BA900094A4A6 /* SenderTextNodeBkgHL@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5727AB5D1887BA900094A4A6 /* SenderTextNodeBkgHL@2x.png */; };
+		5727AB821887BA900094A4A6 /* SenderTextNodeBkgHL_ios7@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5727AB5E1887BA900094A4A6 /* SenderTextNodeBkgHL_ios7@2x.png */; };
+		5727AB831887BA900094A4A6 /* SenderVoiceNodeBack@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5727AB5F1887BA900094A4A6 /* SenderVoiceNodeBack@2x.png */; };
+		5727AB841887BA900094A4A6 /* SenderVoiceNodeBack_ios7@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5727AB601887BA900094A4A6 /* SenderVoiceNodeBack_ios7@2x.png */; };
+		5727AB851887BA900094A4A6 /* SenderVoiceNodeBkg@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5727AB611887BA900094A4A6 /* SenderVoiceNodeBkg@2x.png */; };
+		5727AB861887BA900094A4A6 /* SenderVoiceNodeBkg_ios7@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5727AB621887BA900094A4A6 /* SenderVoiceNodeBkg_ios7@2x.png */; };
+		5727AB871887BA900094A4A6 /* SenderVoiceNodeBkgforward@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5727AB631887BA900094A4A6 /* SenderVoiceNodeBkgforward@2x.png */; };
+		5727AB881887BA900094A4A6 /* SenderVoiceNodeBkgforwardHL@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5727AB641887BA900094A4A6 /* SenderVoiceNodeBkgforwardHL@2x.png */; };
+		5727AB891887BA900094A4A6 /* SenderVoiceNodeBkgHL@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5727AB651887BA900094A4A6 /* SenderVoiceNodeBkgHL@2x.png */; };
+		5727AB8A1887BA900094A4A6 /* SenderVoiceNodeBkgHL_ios7@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5727AB661887BA900094A4A6 /* SenderVoiceNodeBkgHL_ios7@2x.png */; };
+		5727AB8B1887BA900094A4A6 /* SenderVoiceNodeDownloading@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5727AB671887BA900094A4A6 /* SenderVoiceNodeDownloading@2x.png */; };
+		5727AB8C1887BA900094A4A6 /* SenderVoiceNodeDownloading_ios7@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5727AB681887BA900094A4A6 /* SenderVoiceNodeDownloading_ios7@2x.png */; };
+		579519271887DDDF008B6EFC /* SWLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 579519261887DDDF008B6EFC /* SWLoginViewController.m */; };
+		579519331888C7BF008B6EFC /* Message.m in Sources */ = {isa = PBXBuildFile; fileRef = 579519321888C7BF008B6EFC /* Message.m */; };
+		579519361888C7BF008B6EFC /* User.m in Sources */ = {isa = PBXBuildFile; fileRef = 579519351888C7BF008B6EFC /* User.m */; };
+		5795193C1888FC3F008B6EFC /* Default_user_avatar@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5795193A1888FC3F008B6EFC /* Default_user_avatar@2x.png */; };
+		5795193D1888FC3F008B6EFC /* Default_user_avatar.png in Resources */ = {isa = PBXBuildFile; fileRef = 5795193B1888FC3F008B6EFC /* Default_user_avatar.png */; };
+		57B6F905188629EC00DC732D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57B6F904188629EC00DC732D /* Foundation.framework */; };
+		57B6F907188629EC00DC732D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57B6F906188629EC00DC732D /* CoreGraphics.framework */; };
+		57B6F909188629EC00DC732D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57B6F908188629EC00DC732D /* UIKit.framework */; };
+		57B6F90B188629EC00DC732D /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57B6F90A188629EC00DC732D /* CoreData.framework */; };
+		57B6F911188629EC00DC732D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 57B6F90F188629EC00DC732D /* InfoPlist.strings */; };
+		57B6F913188629EC00DC732D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 57B6F912188629EC00DC732D /* main.m */; };
+		57B6F917188629EC00DC732D /* SWAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 57B6F916188629EC00DC732D /* SWAppDelegate.m */; };
+		57B6F91A188629EC00DC732D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 57B6F918188629EC00DC732D /* Main.storyboard */; };
+		57B6F91D188629EC00DC732D /* MQTTMessenger.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 57B6F91B188629EC00DC732D /* MQTTMessenger.xcdatamodeld */; };
+		57B6F920188629EC00DC732D /* SWMasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 57B6F91F188629EC00DC732D /* SWMasterViewController.m */; };
+		57B6F925188629EC00DC732D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 57B6F924188629EC00DC732D /* Images.xcassets */; };
+		57B6F92C188629ED00DC732D /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57B6F92B188629EC00DC732D /* XCTest.framework */; };
+		57B6F92D188629ED00DC732D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57B6F904188629EC00DC732D /* Foundation.framework */; };
+		57B6F92E188629ED00DC732D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57B6F908188629EC00DC732D /* UIKit.framework */; };
+		57B6F92F188629ED00DC732D /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57B6F90A188629EC00DC732D /* CoreData.framework */; };
+		57B6F937188629ED00DC732D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 57B6F935188629ED00DC732D /* InfoPlist.strings */; };
+		57B6F939188629ED00DC732D /* MQTTMessengerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 57B6F938188629ED00DC732D /* MQTTMessengerTests.m */; };
+		57B6F95418862A2C00DC732D /* MQTTDecoder.m in Sources */ = {isa = PBXBuildFile; fileRef = 57B6F94718862A2C00DC732D /* MQTTDecoder.m */; };
+		57B6F95518862A2C00DC732D /* MQTTEncoder.m in Sources */ = {isa = PBXBuildFile; fileRef = 57B6F94918862A2C00DC732D /* MQTTEncoder.m */; };
+		57B6F95618862A2C00DC732D /* MQTTMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = 57B6F94B18862A2C00DC732D /* MQTTMessage.m */; };
+		57B6F95718862A2C00DC732D /* MqttSDK.m in Sources */ = {isa = PBXBuildFile; fileRef = 57B6F94E18862A2C00DC732D /* MqttSDK.m */; };
+		57B6F95818862A2C00DC732D /* MQTTSession.m in Sources */ = {isa = PBXBuildFile; fileRef = 57B6F95018862A2C00DC732D /* MQTTSession.m */; };
+		57B6F95918862A2C00DC732D /* MQttTxFlow.m in Sources */ = {isa = PBXBuildFile; fileRef = 57B6F95218862A2C00DC732D /* MQttTxFlow.m */; };
+		57B6F95C1886752D00DC732D /* Message+Parser.m in Sources */ = {isa = PBXBuildFile; fileRef = 57B6F95B1886752D00DC732D /* Message+Parser.m */; };
+		BCA10E2EA28C459CAD01AB2D /* libPods-MQTTMessengerTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9FF79FF726074F27A6517FF6 /* libPods-MQTTMessengerTests.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		57B6F930188629ED00DC732D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 57B6F8F9188629EC00DC732D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 57B6F900188629EC00DC732D;
+			remoteInfo = MQTTMessenger;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1D6E5E7D1857481FB2DE5091 /* Pods-MQTTMessenger.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MQTTMessenger.xcconfig"; path = "Pods/Pods-MQTTMessenger.xcconfig"; sourceTree = "<group>"; };
+		32C508ED00A742C2B4E64EC9 /* libPods-MQTTMessenger.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MQTTMessenger.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5727AB2E188781740094A4A6 /* MessageEntryBackground.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = MessageEntryBackground.png; sourceTree = "<group>"; };
+		5727AB2F188781740094A4A6 /* MessageEntryBackground@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "MessageEntryBackground@2x.png"; sourceTree = "<group>"; };
+		5727AB30188781740094A4A6 /* MessageEntryInputField.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = MessageEntryInputField.png; sourceTree = "<group>"; };
+		5727AB31188781740094A4A6 /* MessageEntryInputField@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "MessageEntryInputField@2x.png"; sourceTree = "<group>"; };
+		5727AB32188781740094A4A6 /* MessageEntrySendButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = MessageEntrySendButton.png; sourceTree = "<group>"; };
+		5727AB33188781740094A4A6 /* MessageEntrySendButton@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "MessageEntrySendButton@2x.png"; sourceTree = "<group>"; };
+		5727AB34188781740094A4A6 /* MessageEntrySendButtonPressed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = MessageEntrySendButtonPressed.png; sourceTree = "<group>"; };
+		5727AB35188781740094A4A6 /* MessageEntrySendButtonPressed@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "MessageEntrySendButtonPressed@2x.png"; sourceTree = "<group>"; };
+		5727AB3E1887829A0094A4A6 /* SWConversationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWConversationViewController.h; sourceTree = "<group>"; };
+		5727AB3F1887829A0094A4A6 /* SWConversationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWConversationViewController.m; sourceTree = "<group>"; };
+		5727AB411887AF570094A4A6 /* SWChatBubbleCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWChatBubbleCell.h; sourceTree = "<group>"; };
+		5727AB421887AF570094A4A6 /* SWChatBubbleCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWChatBubbleCell.m; sourceTree = "<group>"; };
+		5727AB451887BA900094A4A6 /* ReceiverTextNodeBkg@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ReceiverTextNodeBkg@2x.png"; sourceTree = "<group>"; };
+		5727AB461887BA900094A4A6 /* ReceiverTextNodeBkg_ios7@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ReceiverTextNodeBkg_ios7@2x.png"; sourceTree = "<group>"; };
+		5727AB471887BA900094A4A6 /* ReceiverTextNodeBkgHL@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ReceiverTextNodeBkgHL@2x.png"; sourceTree = "<group>"; };
+		5727AB481887BA900094A4A6 /* ReceiverTextNodeBkgHL_ios7@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ReceiverTextNodeBkgHL_ios7@2x.png"; sourceTree = "<group>"; };
+		5727AB491887BA900094A4A6 /* ReceiverVoiceNodeBack@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ReceiverVoiceNodeBack@2x.png"; sourceTree = "<group>"; };
+		5727AB4A1887BA900094A4A6 /* ReceiverVoiceNodeBack_ios7@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ReceiverVoiceNodeBack_ios7@2x.png"; sourceTree = "<group>"; };
+		5727AB4B1887BA900094A4A6 /* ReceiverVoiceNodeBkg@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ReceiverVoiceNodeBkg@2x.png"; sourceTree = "<group>"; };
+		5727AB4C1887BA900094A4A6 /* ReceiverVoiceNodeBkg_ios7@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ReceiverVoiceNodeBkg_ios7@2x.png"; sourceTree = "<group>"; };
+		5727AB4D1887BA900094A4A6 /* ReceiverVoiceNodeBkgforward@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ReceiverVoiceNodeBkgforward@2x.png"; sourceTree = "<group>"; };
+		5727AB4E1887BA900094A4A6 /* ReceiverVoiceNodeBkgforwardHL@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ReceiverVoiceNodeBkgforwardHL@2x.png"; sourceTree = "<group>"; };
+		5727AB4F1887BA900094A4A6 /* ReceiverVoiceNodeBkgHL@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ReceiverVoiceNodeBkgHL@2x.png"; sourceTree = "<group>"; };
+		5727AB501887BA900094A4A6 /* ReceiverVoiceNodeBkgHL_ios7@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ReceiverVoiceNodeBkgHL_ios7@2x.png"; sourceTree = "<group>"; };
+		5727AB511887BA900094A4A6 /* ReceiverVoiceNodeDownloading@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ReceiverVoiceNodeDownloading@2x.png"; sourceTree = "<group>"; };
+		5727AB521887BA900094A4A6 /* ReceiverVoiceNodeDownloading_ios7@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ReceiverVoiceNodeDownloading_ios7@2x.png"; sourceTree = "<group>"; };
+		5727AB531887BA900094A4A6 /* SenderAppNodeBkg@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "SenderAppNodeBkg@2x.png"; sourceTree = "<group>"; };
+		5727AB541887BA900094A4A6 /* SenderAppNodeBkg_HL@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "SenderAppNodeBkg_HL@2x.png"; sourceTree = "<group>"; };
+		5727AB551887BA900094A4A6 /* SenderAppNodeBkg_HL_ios7@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "SenderAppNodeBkg_HL_ios7@2x.png"; sourceTree = "<group>"; };
+		5727AB561887BA900094A4A6 /* SenderAppNodeBkg_ios7@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "SenderAppNodeBkg_ios7@2x.png"; sourceTree = "<group>"; };
+		5727AB571887BA900094A4A6 /* SenderImageNodeBorder@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "SenderImageNodeBorder@2x.png"; sourceTree = "<group>"; };
+		5727AB581887BA900094A4A6 /* SenderImageNodeBorder_ios7@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "SenderImageNodeBorder_ios7@2x.png"; sourceTree = "<group>"; };
+		5727AB591887BA900094A4A6 /* SenderTextNodeBkg@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "SenderTextNodeBkg@2x.png"; sourceTree = "<group>"; };
+		5727AB5A1887BA900094A4A6 /* SenderTextNodeBkg_ios7@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "SenderTextNodeBkg_ios7@2x.png"; sourceTree = "<group>"; };
+		5727AB5B1887BA900094A4A6 /* SenderTextNodeBkgBack_ios7@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "SenderTextNodeBkgBack_ios7@2x.png"; sourceTree = "<group>"; };
+		5727AB5C1887BA900094A4A6 /* SenderTextNodeBkgDownloading_ios7@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "SenderTextNodeBkgDownloading_ios7@2x.png"; sourceTree = "<group>"; };
+		5727AB5D1887BA900094A4A6 /* SenderTextNodeBkgHL@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "SenderTextNodeBkgHL@2x.png"; sourceTree = "<group>"; };
+		5727AB5E1887BA900094A4A6 /* SenderTextNodeBkgHL_ios7@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "SenderTextNodeBkgHL_ios7@2x.png"; sourceTree = "<group>"; };
+		5727AB5F1887BA900094A4A6 /* SenderVoiceNodeBack@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "SenderVoiceNodeBack@2x.png"; sourceTree = "<group>"; };
+		5727AB601887BA900094A4A6 /* SenderVoiceNodeBack_ios7@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "SenderVoiceNodeBack_ios7@2x.png"; sourceTree = "<group>"; };
+		5727AB611887BA900094A4A6 /* SenderVoiceNodeBkg@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "SenderVoiceNodeBkg@2x.png"; sourceTree = "<group>"; };
+		5727AB621887BA900094A4A6 /* SenderVoiceNodeBkg_ios7@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "SenderVoiceNodeBkg_ios7@2x.png"; sourceTree = "<group>"; };
+		5727AB631887BA900094A4A6 /* SenderVoiceNodeBkgforward@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "SenderVoiceNodeBkgforward@2x.png"; sourceTree = "<group>"; };
+		5727AB641887BA900094A4A6 /* SenderVoiceNodeBkgforwardHL@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "SenderVoiceNodeBkgforwardHL@2x.png"; sourceTree = "<group>"; };
+		5727AB651887BA900094A4A6 /* SenderVoiceNodeBkgHL@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "SenderVoiceNodeBkgHL@2x.png"; sourceTree = "<group>"; };
+		5727AB661887BA900094A4A6 /* SenderVoiceNodeBkgHL_ios7@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "SenderVoiceNodeBkgHL_ios7@2x.png"; sourceTree = "<group>"; };
+		5727AB671887BA900094A4A6 /* SenderVoiceNodeDownloading@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "SenderVoiceNodeDownloading@2x.png"; sourceTree = "<group>"; };
+		5727AB681887BA900094A4A6 /* SenderVoiceNodeDownloading_ios7@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "SenderVoiceNodeDownloading_ios7@2x.png"; sourceTree = "<group>"; };
+		579519251887DDDF008B6EFC /* SWLoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWLoginViewController.h; sourceTree = "<group>"; };
+		579519261887DDDF008B6EFC /* SWLoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWLoginViewController.m; sourceTree = "<group>"; };
+		579519311888C7BF008B6EFC /* Message.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Message.h; sourceTree = "<group>"; };
+		579519321888C7BF008B6EFC /* Message.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Message.m; sourceTree = "<group>"; };
+		579519341888C7BF008B6EFC /* User.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = User.h; sourceTree = "<group>"; };
+		579519351888C7BF008B6EFC /* User.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = User.m; sourceTree = "<group>"; };
+		5795193A1888FC3F008B6EFC /* Default_user_avatar@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default_user_avatar@2x.png"; sourceTree = "<group>"; };
+		5795193B1888FC3F008B6EFC /* Default_user_avatar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default_user_avatar.png; sourceTree = "<group>"; };
+		57B6F901188629EC00DC732D /* MQTTMessenger.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MQTTMessenger.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		57B6F904188629EC00DC732D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		57B6F906188629EC00DC732D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		57B6F908188629EC00DC732D /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		57B6F90A188629EC00DC732D /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		57B6F90E188629EC00DC732D /* MQTTMessenger-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MQTTMessenger-Info.plist"; sourceTree = "<group>"; };
+		57B6F910188629EC00DC732D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		57B6F912188629EC00DC732D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		57B6F914188629EC00DC732D /* MQTTMessenger-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MQTTMessenger-Prefix.pch"; sourceTree = "<group>"; };
+		57B6F915188629EC00DC732D /* SWAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SWAppDelegate.h; sourceTree = "<group>"; };
+		57B6F916188629EC00DC732D /* SWAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SWAppDelegate.m; sourceTree = "<group>"; };
+		57B6F919188629EC00DC732D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		57B6F91C188629EC00DC732D /* MQTTMessenger.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MQTTMessenger.xcdatamodel; sourceTree = "<group>"; };
+		57B6F91E188629EC00DC732D /* SWMasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SWMasterViewController.h; sourceTree = "<group>"; };
+		57B6F91F188629EC00DC732D /* SWMasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SWMasterViewController.m; sourceTree = "<group>"; };
+		57B6F924188629EC00DC732D /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		57B6F92A188629EC00DC732D /* MQTTMessengerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MQTTMessengerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		57B6F92B188629EC00DC732D /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		57B6F934188629ED00DC732D /* MQTTMessengerTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MQTTMessengerTests-Info.plist"; sourceTree = "<group>"; };
+		57B6F936188629ED00DC732D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		57B6F938188629ED00DC732D /* MQTTMessengerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MQTTMessengerTests.m; sourceTree = "<group>"; };
+		57B6F94618862A2C00DC732D /* MQTTDecoder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MQTTDecoder.h; sourceTree = "<group>"; };
+		57B6F94718862A2C00DC732D /* MQTTDecoder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MQTTDecoder.m; sourceTree = "<group>"; };
+		57B6F94818862A2C00DC732D /* MQTTEncoder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MQTTEncoder.h; sourceTree = "<group>"; };
+		57B6F94918862A2C00DC732D /* MQTTEncoder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MQTTEncoder.m; sourceTree = "<group>"; };
+		57B6F94A18862A2C00DC732D /* MQTTMessage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MQTTMessage.h; sourceTree = "<group>"; };
+		57B6F94B18862A2C00DC732D /* MQTTMessage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MQTTMessage.m; sourceTree = "<group>"; };
+		57B6F94C18862A2C00DC732D /* MqttSDK-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MqttSDK-Prefix.pch"; sourceTree = "<group>"; };
+		57B6F94D18862A2C00DC732D /* MqttSDK.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MqttSDK.h; sourceTree = "<group>"; };
+		57B6F94E18862A2C00DC732D /* MqttSDK.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MqttSDK.m; sourceTree = "<group>"; };
+		57B6F94F18862A2C00DC732D /* MQTTSession.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MQTTSession.h; sourceTree = "<group>"; };
+		57B6F95018862A2C00DC732D /* MQTTSession.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MQTTSession.m; sourceTree = "<group>"; };
+		57B6F95118862A2C00DC732D /* MQttTxFlow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MQttTxFlow.h; sourceTree = "<group>"; };
+		57B6F95218862A2C00DC732D /* MQttTxFlow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MQttTxFlow.m; sourceTree = "<group>"; };
+		57B6F95A1886752D00DC732D /* Message+Parser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Message+Parser.h"; sourceTree = "<group>"; };
+		57B6F95B1886752D00DC732D /* Message+Parser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Message+Parser.m"; sourceTree = "<group>"; };
+		898FA86134FC45628FB1735E /* Pods-MQTTMessengerTests.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MQTTMessengerTests.xcconfig"; path = "Pods/Pods-MQTTMessengerTests.xcconfig"; sourceTree = "<group>"; };
+		9FF79FF726074F27A6517FF6 /* libPods-MQTTMessengerTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MQTTMessengerTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		57B6F8FE188629EC00DC732D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				57B6F907188629EC00DC732D /* CoreGraphics.framework in Frameworks */,
+				57B6F90B188629EC00DC732D /* CoreData.framework in Frameworks */,
+				57B6F909188629EC00DC732D /* UIKit.framework in Frameworks */,
+				57B6F905188629EC00DC732D /* Foundation.framework in Frameworks */,
+				4C2CE8BE8021400BBA3E9C93 /* libPods-MQTTMessenger.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		57B6F927188629EC00DC732D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				57B6F92C188629ED00DC732D /* XCTest.framework in Frameworks */,
+				57B6F92F188629ED00DC732D /* CoreData.framework in Frameworks */,
+				57B6F92E188629ED00DC732D /* UIKit.framework in Frameworks */,
+				57B6F92D188629ED00DC732D /* Foundation.framework in Frameworks */,
+				BCA10E2EA28C459CAD01AB2D /* libPods-MQTTMessengerTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5727AB2C188781740094A4A6 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				5727AB2D188781740094A4A6 /* Images */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		5727AB2D188781740094A4A6 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				5795193A1888FC3F008B6EFC /* Default_user_avatar@2x.png */,
+				5795193B1888FC3F008B6EFC /* Default_user_avatar.png */,
+				5727AB441887BA900094A4A6 /* ChatBubble */,
+				5727AB2E188781740094A4A6 /* MessageEntryBackground.png */,
+				5727AB2F188781740094A4A6 /* MessageEntryBackground@2x.png */,
+				5727AB30188781740094A4A6 /* MessageEntryInputField.png */,
+				5727AB31188781740094A4A6 /* MessageEntryInputField@2x.png */,
+				5727AB32188781740094A4A6 /* MessageEntrySendButton.png */,
+				5727AB33188781740094A4A6 /* MessageEntrySendButton@2x.png */,
+				5727AB34188781740094A4A6 /* MessageEntrySendButtonPressed.png */,
+				5727AB35188781740094A4A6 /* MessageEntrySendButtonPressed@2x.png */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		5727AB441887BA900094A4A6 /* ChatBubble */ = {
+			isa = PBXGroup;
+			children = (
+				5727AB451887BA900094A4A6 /* ReceiverTextNodeBkg@2x.png */,
+				5727AB461887BA900094A4A6 /* ReceiverTextNodeBkg_ios7@2x.png */,
+				5727AB471887BA900094A4A6 /* ReceiverTextNodeBkgHL@2x.png */,
+				5727AB481887BA900094A4A6 /* ReceiverTextNodeBkgHL_ios7@2x.png */,
+				5727AB491887BA900094A4A6 /* ReceiverVoiceNodeBack@2x.png */,
+				5727AB4A1887BA900094A4A6 /* ReceiverVoiceNodeBack_ios7@2x.png */,
+				5727AB4B1887BA900094A4A6 /* ReceiverVoiceNodeBkg@2x.png */,
+				5727AB4C1887BA900094A4A6 /* ReceiverVoiceNodeBkg_ios7@2x.png */,
+				5727AB4D1887BA900094A4A6 /* ReceiverVoiceNodeBkgforward@2x.png */,
+				5727AB4E1887BA900094A4A6 /* ReceiverVoiceNodeBkgforwardHL@2x.png */,
+				5727AB4F1887BA900094A4A6 /* ReceiverVoiceNodeBkgHL@2x.png */,
+				5727AB501887BA900094A4A6 /* ReceiverVoiceNodeBkgHL_ios7@2x.png */,
+				5727AB511887BA900094A4A6 /* ReceiverVoiceNodeDownloading@2x.png */,
+				5727AB521887BA900094A4A6 /* ReceiverVoiceNodeDownloading_ios7@2x.png */,
+				5727AB531887BA900094A4A6 /* SenderAppNodeBkg@2x.png */,
+				5727AB541887BA900094A4A6 /* SenderAppNodeBkg_HL@2x.png */,
+				5727AB551887BA900094A4A6 /* SenderAppNodeBkg_HL_ios7@2x.png */,
+				5727AB561887BA900094A4A6 /* SenderAppNodeBkg_ios7@2x.png */,
+				5727AB571887BA900094A4A6 /* SenderImageNodeBorder@2x.png */,
+				5727AB581887BA900094A4A6 /* SenderImageNodeBorder_ios7@2x.png */,
+				5727AB591887BA900094A4A6 /* SenderTextNodeBkg@2x.png */,
+				5727AB5A1887BA900094A4A6 /* SenderTextNodeBkg_ios7@2x.png */,
+				5727AB5B1887BA900094A4A6 /* SenderTextNodeBkgBack_ios7@2x.png */,
+				5727AB5C1887BA900094A4A6 /* SenderTextNodeBkgDownloading_ios7@2x.png */,
+				5727AB5D1887BA900094A4A6 /* SenderTextNodeBkgHL@2x.png */,
+				5727AB5E1887BA900094A4A6 /* SenderTextNodeBkgHL_ios7@2x.png */,
+				5727AB5F1887BA900094A4A6 /* SenderVoiceNodeBack@2x.png */,
+				5727AB601887BA900094A4A6 /* SenderVoiceNodeBack_ios7@2x.png */,
+				5727AB611887BA900094A4A6 /* SenderVoiceNodeBkg@2x.png */,
+				5727AB621887BA900094A4A6 /* SenderVoiceNodeBkg_ios7@2x.png */,
+				5727AB631887BA900094A4A6 /* SenderVoiceNodeBkgforward@2x.png */,
+				5727AB641887BA900094A4A6 /* SenderVoiceNodeBkgforwardHL@2x.png */,
+				5727AB651887BA900094A4A6 /* SenderVoiceNodeBkgHL@2x.png */,
+				5727AB661887BA900094A4A6 /* SenderVoiceNodeBkgHL_ios7@2x.png */,
+				5727AB671887BA900094A4A6 /* SenderVoiceNodeDownloading@2x.png */,
+				5727AB681887BA900094A4A6 /* SenderVoiceNodeDownloading_ios7@2x.png */,
+			);
+			path = ChatBubble;
+			sourceTree = "<group>";
+		};
+		57B6F8F8188629EC00DC732D = {
+			isa = PBXGroup;
+			children = (
+				57B6F90C188629EC00DC732D /* MQTTMessenger */,
+				57B6F932188629ED00DC732D /* MQTTMessengerTests */,
+				57B6F903188629EC00DC732D /* Frameworks */,
+				57B6F902188629EC00DC732D /* Products */,
+				1D6E5E7D1857481FB2DE5091 /* Pods-MQTTMessenger.xcconfig */,
+				898FA86134FC45628FB1735E /* Pods-MQTTMessengerTests.xcconfig */,
+			);
+			sourceTree = "<group>";
+		};
+		57B6F902188629EC00DC732D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				57B6F901188629EC00DC732D /* MQTTMessenger.app */,
+				57B6F92A188629EC00DC732D /* MQTTMessengerTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		57B6F903188629EC00DC732D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				57B6F904188629EC00DC732D /* Foundation.framework */,
+				57B6F906188629EC00DC732D /* CoreGraphics.framework */,
+				57B6F908188629EC00DC732D /* UIKit.framework */,
+				57B6F90A188629EC00DC732D /* CoreData.framework */,
+				57B6F92B188629EC00DC732D /* XCTest.framework */,
+				32C508ED00A742C2B4E64EC9 /* libPods-MQTTMessenger.a */,
+				9FF79FF726074F27A6517FF6 /* libPods-MQTTMessengerTests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		57B6F90C188629EC00DC732D /* MQTTMessenger */ = {
+			isa = PBXGroup;
+			children = (
+				5727AB2C188781740094A4A6 /* Resources */,
+				57B6F94218862A2C00DC732D /* Model */,
+				57B6F94518862A2C00DC732D /* MqttSDK */,
+				57B6F915188629EC00DC732D /* SWAppDelegate.h */,
+				57B6F916188629EC00DC732D /* SWAppDelegate.m */,
+				57B6F918188629EC00DC732D /* Main.storyboard */,
+				57B6F91E188629EC00DC732D /* SWMasterViewController.h */,
+				57B6F91F188629EC00DC732D /* SWMasterViewController.m */,
+				5727AB3E1887829A0094A4A6 /* SWConversationViewController.h */,
+				5727AB3F1887829A0094A4A6 /* SWConversationViewController.m */,
+				5727AB411887AF570094A4A6 /* SWChatBubbleCell.h */,
+				5727AB421887AF570094A4A6 /* SWChatBubbleCell.m */,
+				579519251887DDDF008B6EFC /* SWLoginViewController.h */,
+				579519261887DDDF008B6EFC /* SWLoginViewController.m */,
+				57B6F924188629EC00DC732D /* Images.xcassets */,
+				57B6F91B188629EC00DC732D /* MQTTMessenger.xcdatamodeld */,
+				57B6F90D188629EC00DC732D /* Supporting Files */,
+			);
+			path = MQTTMessenger;
+			sourceTree = "<group>";
+		};
+		57B6F90D188629EC00DC732D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				57B6F90E188629EC00DC732D /* MQTTMessenger-Info.plist */,
+				57B6F90F188629EC00DC732D /* InfoPlist.strings */,
+				57B6F912188629EC00DC732D /* main.m */,
+				57B6F914188629EC00DC732D /* MQTTMessenger-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		57B6F932188629ED00DC732D /* MQTTMessengerTests */ = {
+			isa = PBXGroup;
+			children = (
+				57B6F938188629ED00DC732D /* MQTTMessengerTests.m */,
+				57B6F933188629ED00DC732D /* Supporting Files */,
+			);
+			path = MQTTMessengerTests;
+			sourceTree = "<group>";
+		};
+		57B6F933188629ED00DC732D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				57B6F934188629ED00DC732D /* MQTTMessengerTests-Info.plist */,
+				57B6F935188629ED00DC732D /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		57B6F94218862A2C00DC732D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				579519341888C7BF008B6EFC /* User.h */,
+				579519351888C7BF008B6EFC /* User.m */,
+				579519311888C7BF008B6EFC /* Message.h */,
+				579519321888C7BF008B6EFC /* Message.m */,
+				57B6F95A1886752D00DC732D /* Message+Parser.h */,
+				57B6F95B1886752D00DC732D /* Message+Parser.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		57B6F94518862A2C00DC732D /* MqttSDK */ = {
+			isa = PBXGroup;
+			children = (
+				57B6F94618862A2C00DC732D /* MQTTDecoder.h */,
+				57B6F94718862A2C00DC732D /* MQTTDecoder.m */,
+				57B6F94818862A2C00DC732D /* MQTTEncoder.h */,
+				57B6F94918862A2C00DC732D /* MQTTEncoder.m */,
+				57B6F94A18862A2C00DC732D /* MQTTMessage.h */,
+				57B6F94B18862A2C00DC732D /* MQTTMessage.m */,
+				57B6F94C18862A2C00DC732D /* MqttSDK-Prefix.pch */,
+				57B6F94D18862A2C00DC732D /* MqttSDK.h */,
+				57B6F94E18862A2C00DC732D /* MqttSDK.m */,
+				57B6F94F18862A2C00DC732D /* MQTTSession.h */,
+				57B6F95018862A2C00DC732D /* MQTTSession.m */,
+				57B6F95118862A2C00DC732D /* MQttTxFlow.h */,
+				57B6F95218862A2C00DC732D /* MQttTxFlow.m */,
+			);
+			path = MqttSDK;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		57B6F900188629EC00DC732D /* MQTTMessenger */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 57B6F93C188629ED00DC732D /* Build configuration list for PBXNativeTarget "MQTTMessenger" */;
+			buildPhases = (
+				48E7987CC4F24905A68646F7 /* Check Pods Manifest.lock */,
+				57B6F8FD188629EC00DC732D /* Sources */,
+				57B6F8FE188629EC00DC732D /* Frameworks */,
+				57B6F8FF188629EC00DC732D /* Resources */,
+				2EB061CA36024E88BA05ACF0 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MQTTMessenger;
+			productName = MQTTMessenger;
+			productReference = 57B6F901188629EC00DC732D /* MQTTMessenger.app */;
+			productType = "com.apple.product-type.application";
+		};
+		57B6F929188629EC00DC732D /* MQTTMessengerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 57B6F93F188629ED00DC732D /* Build configuration list for PBXNativeTarget "MQTTMessengerTests" */;
+			buildPhases = (
+				876392E3639E4363AE9DEFCD /* Check Pods Manifest.lock */,
+				57B6F926188629EC00DC732D /* Sources */,
+				57B6F927188629EC00DC732D /* Frameworks */,
+				57B6F928188629EC00DC732D /* Resources */,
+				29583D4ED1D84C4BA5535E53 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				57B6F931188629ED00DC732D /* PBXTargetDependency */,
+			);
+			name = MQTTMessengerTests;
+			productName = MQTTMessengerTests;
+			productReference = 57B6F92A188629EC00DC732D /* MQTTMessengerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		57B6F8F9188629EC00DC732D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = SW;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = Song.Wang;
+				TargetAttributes = {
+					57B6F929188629EC00DC732D = {
+						TestTargetID = 57B6F900188629EC00DC732D;
+					};
+				};
+			};
+			buildConfigurationList = 57B6F8FC188629EC00DC732D /* Build configuration list for PBXProject "MQTTMessenger" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 57B6F8F8188629EC00DC732D;
+			productRefGroup = 57B6F902188629EC00DC732D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				57B6F900188629EC00DC732D /* MQTTMessenger */,
+				57B6F929188629EC00DC732D /* MQTTMessengerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		57B6F8FF188629EC00DC732D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5727AB39188781740094A4A6 /* MessageEntryInputField@2x.png in Resources */,
+				5727AB7B1887BA900094A4A6 /* SenderImageNodeBorder@2x.png in Resources */,
+				5727AB3C188781740094A4A6 /* MessageEntrySendButtonPressed.png in Resources */,
+				5727AB37188781740094A4A6 /* MessageEntryBackground@2x.png in Resources */,
+				5727AB841887BA900094A4A6 /* SenderVoiceNodeBack_ios7@2x.png in Resources */,
+				5727AB731887BA900094A4A6 /* ReceiverVoiceNodeBkgHL@2x.png in Resources */,
+				5727AB781887BA900094A4A6 /* SenderAppNodeBkg_HL@2x.png in Resources */,
+				5727AB6F1887BA900094A4A6 /* ReceiverVoiceNodeBkg@2x.png in Resources */,
+				5795193D1888FC3F008B6EFC /* Default_user_avatar.png in Resources */,
+				5727AB871887BA900094A4A6 /* SenderVoiceNodeBkgforward@2x.png in Resources */,
+				5727AB881887BA900094A4A6 /* SenderVoiceNodeBkgforwardHL@2x.png in Resources */,
+				5727AB701887BA900094A4A6 /* ReceiverVoiceNodeBkg_ios7@2x.png in Resources */,
+				5727AB7C1887BA900094A4A6 /* SenderImageNodeBorder_ios7@2x.png in Resources */,
+				5727AB801887BA900094A4A6 /* SenderTextNodeBkgDownloading_ios7@2x.png in Resources */,
+				5727AB691887BA900094A4A6 /* ReceiverTextNodeBkg@2x.png in Resources */,
+				5727AB761887BA900094A4A6 /* ReceiverVoiceNodeDownloading_ios7@2x.png in Resources */,
+				5727AB3A188781740094A4A6 /* MessageEntrySendButton.png in Resources */,
+				5727AB3B188781740094A4A6 /* MessageEntrySendButton@2x.png in Resources */,
+				5727AB6E1887BA900094A4A6 /* ReceiverVoiceNodeBack_ios7@2x.png in Resources */,
+				5727AB831887BA900094A4A6 /* SenderVoiceNodeBack@2x.png in Resources */,
+				5727AB811887BA900094A4A6 /* SenderTextNodeBkgHL@2x.png in Resources */,
+				5727AB711887BA900094A4A6 /* ReceiverVoiceNodeBkgforward@2x.png in Resources */,
+				5727AB891887BA900094A4A6 /* SenderVoiceNodeBkgHL@2x.png in Resources */,
+				5727AB36188781740094A4A6 /* MessageEntryBackground.png in Resources */,
+				57B6F925188629EC00DC732D /* Images.xcassets in Resources */,
+				5795193C1888FC3F008B6EFC /* Default_user_avatar@2x.png in Resources */,
+				5727AB771887BA900094A4A6 /* SenderAppNodeBkg@2x.png in Resources */,
+				5727AB8A1887BA900094A4A6 /* SenderVoiceNodeBkgHL_ios7@2x.png in Resources */,
+				5727AB7F1887BA900094A4A6 /* SenderTextNodeBkgBack_ios7@2x.png in Resources */,
+				57B6F911188629EC00DC732D /* InfoPlist.strings in Resources */,
+				5727AB721887BA900094A4A6 /* ReceiverVoiceNodeBkgforwardHL@2x.png in Resources */,
+				5727AB751887BA900094A4A6 /* ReceiverVoiceNodeDownloading@2x.png in Resources */,
+				5727AB821887BA900094A4A6 /* SenderTextNodeBkgHL_ios7@2x.png in Resources */,
+				5727AB7D1887BA900094A4A6 /* SenderTextNodeBkg@2x.png in Resources */,
+				5727AB6C1887BA900094A4A6 /* ReceiverTextNodeBkgHL_ios7@2x.png in Resources */,
+				5727AB8C1887BA900094A4A6 /* SenderVoiceNodeDownloading_ios7@2x.png in Resources */,
+				5727AB791887BA900094A4A6 /* SenderAppNodeBkg_HL_ios7@2x.png in Resources */,
+				5727AB7E1887BA900094A4A6 /* SenderTextNodeBkg_ios7@2x.png in Resources */,
+				5727AB3D188781740094A4A6 /* MessageEntrySendButtonPressed@2x.png in Resources */,
+				5727AB6D1887BA900094A4A6 /* ReceiverVoiceNodeBack@2x.png in Resources */,
+				5727AB7A1887BA900094A4A6 /* SenderAppNodeBkg_ios7@2x.png in Resources */,
+				5727AB38188781740094A4A6 /* MessageEntryInputField.png in Resources */,
+				57B6F91A188629EC00DC732D /* Main.storyboard in Resources */,
+				5727AB741887BA900094A4A6 /* ReceiverVoiceNodeBkgHL_ios7@2x.png in Resources */,
+				5727AB6A1887BA900094A4A6 /* ReceiverTextNodeBkg_ios7@2x.png in Resources */,
+				5727AB861887BA900094A4A6 /* SenderVoiceNodeBkg_ios7@2x.png in Resources */,
+				5727AB8B1887BA900094A4A6 /* SenderVoiceNodeDownloading@2x.png in Resources */,
+				5727AB6B1887BA900094A4A6 /* ReceiverTextNodeBkgHL@2x.png in Resources */,
+				5727AB851887BA900094A4A6 /* SenderVoiceNodeBkg@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		57B6F928188629EC00DC732D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				57B6F937188629ED00DC732D /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		29583D4ED1D84C4BA5535E53 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-MQTTMessengerTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2EB061CA36024E88BA05ACF0 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-MQTTMessenger-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		48E7987CC4F24905A68646F7 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		876392E3639E4363AE9DEFCD /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		57B6F8FD188629EC00DC732D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				57B6F95618862A2C00DC732D /* MQTTMessage.m in Sources */,
+				57B6F95918862A2C00DC732D /* MQttTxFlow.m in Sources */,
+				579519361888C7BF008B6EFC /* User.m in Sources */,
+				57B6F95C1886752D00DC732D /* Message+Parser.m in Sources */,
+				5727AB401887829A0094A4A6 /* SWConversationViewController.m in Sources */,
+				579519271887DDDF008B6EFC /* SWLoginViewController.m in Sources */,
+				57B6F920188629EC00DC732D /* SWMasterViewController.m in Sources */,
+				57B6F95718862A2C00DC732D /* MqttSDK.m in Sources */,
+				57B6F917188629EC00DC732D /* SWAppDelegate.m in Sources */,
+				57B6F91D188629EC00DC732D /* MQTTMessenger.xcdatamodeld in Sources */,
+				57B6F95818862A2C00DC732D /* MQTTSession.m in Sources */,
+				5727AB431887AF570094A4A6 /* SWChatBubbleCell.m in Sources */,
+				579519331888C7BF008B6EFC /* Message.m in Sources */,
+				57B6F95418862A2C00DC732D /* MQTTDecoder.m in Sources */,
+				57B6F95518862A2C00DC732D /* MQTTEncoder.m in Sources */,
+				57B6F913188629EC00DC732D /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		57B6F926188629EC00DC732D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				57B6F939188629ED00DC732D /* MQTTMessengerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		57B6F931188629ED00DC732D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 57B6F900188629EC00DC732D /* MQTTMessenger */;
+			targetProxy = 57B6F930188629ED00DC732D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		57B6F90F188629EC00DC732D /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				57B6F910188629EC00DC732D /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		57B6F918188629EC00DC732D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				57B6F919188629EC00DC732D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		57B6F935188629ED00DC732D /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				57B6F936188629ED00DC732D /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		57B6F93A188629ED00DC732D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		57B6F93B188629ED00DC732D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		57B6F93D188629ED00DC732D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1D6E5E7D1857481FB2DE5091 /* Pods-MQTTMessenger.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MQTTMessenger/MQTTMessenger-Prefix.pch";
+				INFOPLIST_FILE = "MQTTMessenger/MQTTMessenger-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		57B6F93E188629ED00DC732D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1D6E5E7D1857481FB2DE5091 /* Pods-MQTTMessenger.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MQTTMessenger/MQTTMessenger-Prefix.pch";
+				INFOPLIST_FILE = "MQTTMessenger/MQTTMessenger-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		57B6F940188629ED00DC732D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 898FA86134FC45628FB1735E /* Pods-MQTTMessengerTests.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/MQTTMessenger.app/MQTTMessenger";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MQTTMessenger/MQTTMessenger-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "MQTTMessengerTests/MQTTMessengerTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		57B6F941188629ED00DC732D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 898FA86134FC45628FB1735E /* Pods-MQTTMessengerTests.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/MQTTMessenger.app/MQTTMessenger";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MQTTMessenger/MQTTMessenger-Prefix.pch";
+				INFOPLIST_FILE = "MQTTMessengerTests/MQTTMessengerTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		57B6F8FC188629EC00DC732D /* Build configuration list for PBXProject "MQTTMessenger" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				57B6F93A188629ED00DC732D /* Debug */,
+				57B6F93B188629ED00DC732D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		57B6F93C188629ED00DC732D /* Build configuration list for PBXNativeTarget "MQTTMessenger" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				57B6F93D188629ED00DC732D /* Debug */,
+				57B6F93E188629ED00DC732D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		57B6F93F188629ED00DC732D /* Build configuration list for PBXNativeTarget "MQTTMessengerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				57B6F940188629ED00DC732D /* Debug */,
+				57B6F941188629ED00DC732D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		57B6F91B188629EC00DC732D /* MQTTMessenger.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				57B6F91C188629EC00DC732D /* MQTTMessenger.xcdatamodel */,
+			);
+			currentVersion = 57B6F91C188629EC00DC732D /* MQTTMessenger.xcdatamodel */;
+			path = MQTTMessenger.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 57B6F8F9188629EC00DC732D /* Project object */;
+}
